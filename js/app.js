@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
     contarAlugados();
 })
 
-
 /*
 Vamos praticar?
 
@@ -44,4 +43,22 @@ No projeto Alugames, uma confirmação ao devolver um jogo, solicitando ao usuá
 No projeto Alugames, crie uma função para imprimir no console a informação sobre quantos jogos foram alugados. OK
 Crie um programa que verifica se uma palavra ou frase é um palíndromo.
 Crie um programa com uma função que receba três números como argumentos e os retorne em ordem crescente. Exiba os números ordenados.
+*/
+
+/* 
+palavraEpalindromo();
+
+function palavraEpalindromo () {
+    let palavra = "ovo";
+    let palavraClusterizada = palavra.split("");
+    let palavraInvertida = palavraClusterizada.reverse().join("");
+
+    if (palavra == palavraInvertida) {
+        console.log(`A palavra: ${palavra} é um palíndromo.`);
+    }else {
+        console.log(`A palavra: ${palavra} NÃO é um palíndromo.`);
+    }
+    console.log(palavraInvertida);
+}
+
 */
